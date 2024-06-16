@@ -14,11 +14,17 @@ p {
     align-items: center;
 }
 button {
+    font-weight: bold;
     color: white;
     background-color: rgb(2, 110, 20);
     padding: 6px;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 input[type=text] {
     padding: 7px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5,150px); 
+    gap: 25px;
 }
