@@ -12,7 +12,6 @@ var title = document.querySelector('#title');
 
 
 
-
   // http://www.omdbapi.com/?apikey=[426f0157]&
 
 
@@ -51,7 +50,7 @@ addbutton.addEventListener('click', function(){
 
         const money1 = document.createElement('h3');
         document.body.appendChild(money1)
-        money1.innerHTML = `Box Office: ${money}, ${awar},${dir}, ${writ}, Year: ${year}, Title - ${titty}`;
+        money1.innerHTML = ` Title - ${titty}, Main Cast: ${awar}, Directed by: ${dir}, Story by: ${writ}, Release date: ${year},  Box Office: ${money}`;
 
 
 
