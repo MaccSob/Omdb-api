@@ -16,7 +16,7 @@ var title = document.querySelector('#title');
 
 
   button.addEventListener('click', function(){
-    fetch(`http://www.omdbapi.com/?apikey=${api}&t=` + text.value)
+    fetch(`https://www.omdbapi.com/?apikey=${api}&t=` + text.value)
     .then(res => res.json())
     .then(data => {
         var money = data['BoxOffice']
