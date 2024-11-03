@@ -6,5 +6,9 @@ See here: https://maccsob.github.io/Omdb-api/
 
 
 
-Might expand to show posters, images etc. 
+
+
+
+
+_Might expand to show posters, images etc._
 
